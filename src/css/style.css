@@ -84,7 +84,7 @@ footer a:hover {
   text-align: center;
   font-style: italic;
   padding: 2.3em 0 2em 0;
-  min-width: 435px;
+  min-width: 235px;
   min-height: 346px;
   max-height: 423px;
 
@@ -126,10 +126,10 @@ footer a:hover {
   background-color: transparent;
   color: var(--color--light--1);
   border-radius: 50px;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 
-  width: 2em;
-  height: 2em;
+  width: 2.2em;
+  height: 2.2em;
   margin-right: 0.3em;
 }
 
