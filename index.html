@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/45ec886cea.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="shortcut icon" href="src/img/logo.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <script type="module" src="src/js/controller.js"></script>
+
+    <title>Quotes Of Yore |</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="src/img/logo.png" alt="Logo" class="header-logo" />
+        <h1 class="header-title">Quotes of Yore</h1>
+      </header>
+      <div class="main-div">
+        <div class="intro-div">
+          <p class="intro">
+            "Welcome to <strong>Quotes of Yore</strong> where the past meets the
+            present to illuminate a brighter future. Embark on a journey of
+            intellectual exploration and find a sanctuary of tranquility amid
+            the chaos of the modern world. May these timeless quotes bring you
+            comfort, perspective, and a renewed sense of purpose in your daily
+            life. Choose a philosophy below to find a new gem of wisdom,
+            offering guidance, solace, and inspiration." - Quotes of Yore
+          </p>
+        </div>
+        <div class="features">
+          <!-- <button class="features-btn regenerate-btn">
+            <i class="fa-solid fa-shuffle"></i>
+          </button>
+          <button class="features-btn copy-btn">
+            <i class="fa-regular fa-clipboard"></i>
+          </button>
+          <button class="features-btn twitter-btn">
+            <i class="fa-brands fa-twitter"></i>
+          </button> -->
+        </div>
+      </div>
+
+      <div class="philosophies-div">
+        <button
+          type="button"
+          class="btn btn-lg btn-philosophy"
+          data-id="Stoicism"
+        >
+          <img class="button-img" src="src/img/stoicism.png" />
+          Stoicism
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-lg btn-philosophy"
+          data-id="Transcendentalism"
+        >
+          <img class="button-img" src="src/img/transcendentalism.png" />
+          Transcendentalism
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-lg btn-philosophy"
+          data-id="Buddhism"
+        >
+          <img class="button-img" src="src/img/buddhism.png" />
+          Buddhism
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-lg btn-philosophy"
+          data-id="Rationalism"
+        >
+          <img class="button-img" src="src/img/rationalism.jpg" />
+          Rationalism
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-lg btn-philosophy"
+          data-id="Classical Greek"
+        >
+          <img class="button-img" src="src/img/greek.png" />
+          Classic Greek
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-lg btn-philosophy"
+          data-id="Mysticism"
+        >
+          <img class="button-img" src="src/img/mysticism.png" />
+          Mysticism
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-lg btn-philosophy"
+          data-id="Empiricism"
+        >
+          <img class="button-img" src="src/img/empiricism.jpg" />
+          Empiricism
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-lg btn-philosophy"
+          data-id="Existentialism"
+        >
+          <img class="button-img" src="src/img/existentialism.jpg" />
+          Existentialism
+        </button>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <p>
+      Created by ©
+      <a href="https://uby-solinap.herokuapp.com/">John Uby Solinap</a> 2023
+    </p>
+    <p>
+      Quotes by
+      <a href="https://github.com/KaranDahiya/philosophy-quotes-API"
+        >KaranDahiya</a
+      >
+      & <a href="https://buddha-api.com/">buddha-api</a>
+    </p>
+  </footer>
+</html>

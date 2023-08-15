@@ -1,0 +1,5 @@
+node_modules
+User_stories.txt
+cors-anywhere
+dist
+.parcel-cache

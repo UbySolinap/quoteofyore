@@ -1,0 +1,18 @@
+{
+  "name": "quotes-of-yore",
+  "version": "1.0.0",
+  "description": "A random philosophical quote generator",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Uby Solinap",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
